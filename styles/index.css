@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins';
+}
+
+.ant-menu-item {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.input {
+  @apply w-full py-3 px-5 my-3 border border-gray-400 rounded focus:outline-none;
+}
+
+.btn {
+  @apply bg-red-400 hover:bg-red-500 transition ease-out duration-500 text-white py-2 text-lg rounded;
+}
